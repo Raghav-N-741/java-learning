@@ -30,6 +30,7 @@ public class Demo1 {
         sb1.setLength(2);
         sb1.ensureCapacity(5);
     
+        
         String s3=sb1.toString();
         System.out.print(s3);
     }
