@@ -30,6 +30,7 @@ public class Demo5_1 {
         Human ob1=new Human();
         Human ob2=new Human();
         ob1.show();
+        ob2.show();
         Human.age=50; //can use the object name also but this is better way
         ob1.show();
 

@@ -9,6 +9,7 @@ class Human
     {
         age=12;
         name="Rags";
+        h=12;
     }
     public void setH(int h) { //need to use because preference is always given for local variable
         this.h = h; // take the obj also as input and obj.age=age;
@@ -36,5 +37,6 @@ public class Demo5 {
         System.out.println(ob1.getAge());
         System.out.println(ob1.name);
         ob1.show();
+        
     }
 }

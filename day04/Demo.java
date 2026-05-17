@@ -11,7 +11,7 @@ public class Demo {
         System.out.println(Math.random());
 
         int nums[][]=new int[3][4]; // 2D array declaration
-
+        System.out.println(nums[0][0]);
         int num1[][]=new int[3][]; //jagged array
         num1[0]=new int[3];
         num1[1]=new int[5];
