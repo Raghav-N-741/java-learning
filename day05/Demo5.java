@@ -18,6 +18,10 @@ class Human
     {
         return age;
     }
+    public int getH()  //getter
+    {
+        return h;
+    }
     public void setAge(int a)  //setter
     {
         age=a;
@@ -34,6 +38,7 @@ public class Demo5 {
         ob1.show();
         ob1.name="Raghav";
         ob1.setAge(19);
+        ob1.setH(5);
         System.out.println(ob1.getAge());
         System.out.println(ob1.name);
         ob1.show();
