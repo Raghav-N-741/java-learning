@@ -11,11 +11,16 @@
  -Inner Class:
     .we can make an inner class static because of which we can access everything in that inner class without evening creating an object for that inner class then  A.B obj1=new A.B();
     .Eg b is an inner class of A then we can define an object like A.B ob1=obj.new B();   
+    .Inner class can directly access the outer class members including private members
+    .Types:
+        -Static nested class eg: A.B ob1=new A.B();
+        -Anonymous inner class
+        -Member inner class
     .Anonymous inner class:
+        -Cannot have constructor
         -If i want to change the behaviour of a method in class but without creating a child class and overriding it then we use this
         - inner class without a name
         -eg A ob1=new A()
             {
                 //give the updated behaviours
             }; we are not creating an object for class A this is an object of this anonymous class
-            
